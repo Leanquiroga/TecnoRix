@@ -41,24 +41,47 @@ nav{
     cursor: pointer;
 }
 
-.navMenu{
-    display: none;
+.container-navMenu{
+    transition: all 1s ease;
+}
+.ConteinerNavMenu{
     position: absolute;
-    background-color: #101010;
-    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.137);
-    z-index: 1;
+    right: 1px;
+    width: 100%;
+    max-width: 250px;
+    background: rgba(0,0,0,0.93);
+    height: 100vh;
+    transition: all 1s ease ;
+    display: none;
+}
+
+.imgMenu:hover + .ConteinerNavMenu{
+    display: block;
+}
+.ConteinerNavMenu:hover{
+    display: block;
+}
+
+.navMenu{
+    transform: translateY(15%);
 }
 
 .navMenu a {
-    color: white;
-    padding: 5px 0px;
-    text-decoration: none;
     display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-right: 5px solid transparent;
+    padding: 20px;
+    text-align: center;
+    transition: all 500ms ease;
 }
 
-.container-navMenu:hover .navMenu{
-    display: block;
+.navMenu a:hover{
+    border-right: 5px solid #fff;
+    background: #171717;
 }
+
 /* FIN NAV */
 
 
