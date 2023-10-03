@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #202020;
+}
+
+
+/* INICIO NAV */
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    background-color: #151515;
+}
+
+.navLogo{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 20px;
+}
+
+.logo{
+    width: 50px;
+    height: 57px;
+    margin-right: 10px;
+}
+.tecnorixH1{
+    color: white;
+    margin: 1px 1px 1px 1px;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+}
+
+.menu{
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.container-navMenu{
+    transition: all 1s ease;
+}
+.ConteinerNavMenu{
+    position: absolute;
+    right: 1px;
+    width: 100%;
+    max-width: 250px;
+    background: rgba(0,0,0,0.93);
+    height: 100vh;
+    transition: all 1s ease ;
+    display: none;
+}
+
+.imgMenu:hover + .ConteinerNavMenu{
+    display: block;
+}
+.ConteinerNavMenu:hover{
+    display: block;
+}
+
+.navMenu{
+    transform: translateY(15%);
+}
+
+.navMenu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-right: 5px solid transparent;
+    padding: 20px;
+    text-align: center;
+    transition: all 500ms ease;
+}
+
+.navMenu a:hover{
+    border-right: 5px solid #fff;
+    background: #171717;
+}
+
+/* FIN NAV */
+
+
+/* INICIO MAIN */
+.conteinerMainUno{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.0);
+    transition: all 400ms ease;
+}
+.conteinerMainUno:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+}
+
+button{
+    background-color: #101010;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 #fff;
+   -webkit-transition: ease-out 0.4s;
+   -moz-transition: ease-out 0.4s;
+   transition: ease-out 0.4s;
+}
+
+button:hover{
+    box-shadow: inset 400px 0 0 0 #fff;
+    color: black;
+}
+
+.conteinerTextoMain{
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 17px;
+}
+
+.conteinerTextoMain h2 {
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    
+}
+
+.conteinerQueso{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.queso{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    transition: all 500ms ease;
+}
+.queso:hover{
+    box-shadow: 5px 5px 20px rgb(255, 255, 255,0.5);
+}
+.conteinerMainDos{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.0);
+    transition: all 400ms ease;
+}
+
+.conteinerMainDos:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+}
+
+.conteinerQuesoDos{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+.conteinerTextoMainDos{
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 17px;
+}
+
+.conteinerTextoMainDos h2{
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    
+}
+/* FIN MAIN */
+
+
+/* INICIO FOOTER */
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    color: white;
+    background-color: #101010;
+}
+
+.logofooter{
+    width: 50px;
+    height: 57px;
+    margin-right: 10px;
+}
+
+.navLogoFooter{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 20px;
+}
+
+.contactoFooter{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+/* FIN FOOTER */

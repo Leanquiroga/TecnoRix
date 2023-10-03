@@ -1,0 +1,63 @@
+.contContact{
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+}
+
+.intr{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.intr2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pp{
+    color: white;
+    font-size: 18px;
+    border-right: 5px solid transparent;
+    padding: 20px;
+    text-align: center;
+}
+
+.dvv{
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+button{
+    background-color: #101010;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 #fff;
+   -webkit-transition: ease-out 0.4s;
+   -moz-transition: ease-out 0.4s;
+   transition: ease-out 0.4s;
+}
+
+button:hover{
+    box-shadow: inset 400px 0 0 0 #fff;
+    color: black;
+}
+
